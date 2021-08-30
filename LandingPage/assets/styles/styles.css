@@ -8,3 +8,37 @@
 a{
     color: unset;
 }
+
+header{
+    background-image: url("../images/hero.png");
+    background-position: center; /*Image at center*/
+    background-size: cover;
+    height: 60vh; /*percent will not work because it will take % of parent */
+
+}
+
+/* Header styles */
+
+/* Navbar styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0px;
+    width: 90%;
+    margin: 0px auto;  /*auto will align it in center in this case, but auto arrange the margin automatically*/
+}
+
+nav .nav-item{
+    color: #fff;
+    margin: 0px 10px;
+}
+
+nav div.container{
+    display: flex;
+}
+
+nav div.nav-item.app{
+    font-size: 0.9rem;
+    font-weight: 900;
+}
