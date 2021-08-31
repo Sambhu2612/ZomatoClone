@@ -3,6 +3,12 @@
     padding: 0px;
     box-sizing: border-box;
     text-decoration: none;
+    border: none;
+    font-family: 'Metrophobic', sans-serif;
+}
+
+*:focus{
+    outline: none;
 }
 
 a{
@@ -25,7 +31,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding: 25px 0px;
-    width: 90%;
+    width: 70%;
     margin: 0px auto;  /*auto will align it in center in this case, but auto arrange the margin automatically*/
 }
 
@@ -41,4 +47,84 @@ nav div.container{
 nav div.nav-item.app{
     font-size: 0.9rem;
     font-weight: 900;
+}
+/* container styles */
+
+div.search-box div{
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+header div.search-box i{
+    margin: 10px;
+}
+
+header div.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 7%;
+    height: 70%;
+    width: 80%;
+    margin: 0px auto;
+}
+
+header div img{
+    height: 60px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #fff;
+    font-weight: 400;
+}
+
+header div.search-box{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    width: 60%;
+    border-radius: 10px;
+}
+
+header div.search-box div.select i{
+    color: #F57082;
+}
+
+header div.search-box div.input {
+    color: #828282b7;
+}
+
+header div.search-box div.seperator{
+    height: 50%;
+    background-color: #8282829B;
+    width: 2px;
+}
+
+header div.search-box div.input{
+    flex-grow: 70;
+}
+
+header div.search-box div.input input{
+    width: 100%;
+}
+
+header div.search-box select{
+    margin-right: 5px;
+    -webkit-appearance: none;
+    width: 9vw;
+}
+
+svg.locator_icon{
+    margin: 0px 10px;
+}
+
+svg.search_icon{
+    margin: 0px 10px;
+}
+
+header div.select svg.dropdown_icon{
+    margin: 0 10px;
 }
